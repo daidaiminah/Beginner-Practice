@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.div2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#result{
+    margin-top: 10px;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+button:disabled{
+    background-color: #4CAF50;
+    color: white;
+}
+
